@@ -4,7 +4,11 @@ Kidney paired donation is a partial solution to biological incompatibility preve
 
 In file "Graph", "vertexType.csv" and "adjacencyMatrix.csv" are the vertex vector and the adjacency matrix of a combined KPDP database, respectively. The ith entry of the vertex vector indicates whether vertex i is a NDD. The (i,j) entry of the adjaency matrix indicates whether a directed edge points from vertex i to vertex j. 
 
-For example, a directed graph derived from a KPDP consists of vertices: 12, 45, 176, 210, 271, 471, 542, 544, 562, 789, 884, 885. Its vertex vector is:
+For example, a directed graph derived from a KPDP consists of vertices: 12, 45, 176, 210, 271, 471, 542, 544, 562, 789, 884, 885. 
+
+![Alt Text](https://github.com/jiangwenjiaowa/KPDLRS/blob/master/pic.png)
+
+Its vertex vector is:
 ```
 NAME,VALUE
   12,    1
