@@ -7,6 +7,7 @@ In file "Graph", "vertexType.csv" and "adjacencyMatrix.csv" are the vertex vecto
 For example, a directed graph derived from a KPDP consists of vertices: 12, 45, 176, 210, 271, 471, 542, 544, 562, 789, 884, 885. 
 
 ![Alt Text](https://github.com/jiangwenjiaowa/KPDLRS/blob/master/pic.png)
+*An example of a directed graph derived from a KPDP: circles stands for vertices and arrows stands for directed edges. Red vertices are NDDs and blue vertices are pairs.*
 
 Its vertex vector is:
 ```
