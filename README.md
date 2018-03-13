@@ -5,6 +5,7 @@ Kidney paired donation is a partial solution to biological incompatibility preve
 In file "Graph", "vertexType.csv" and "adjacencyMatrix.csv" are the vertex vector and the adjacency matrix of a combined KPDP database, respectively. The ith entry of the vertex vector indicates whether vertex i is a NDD. The (i,j) entry of the adjaency matrix indicates whether a directed edge points from vertex i to vertex j. 
 
 For example, a directed graph derived from a KPDP consists of vertices: 12, 45, 176, 210, 271, 471, 542, 544, 562, 789, 884, 885. Its vertex vector is:
+```
 NAME,VALUE
   12,    1
   45,    1
@@ -18,7 +19,9 @@ NAME,VALUE
  789,    0
  884,    0
  885,    0.
+ ```
 And its adjacency matrix is:
+```
 ROW/COLNAME ,12, 45, 176, 210, 271, 471, 542, 544, 562, 789, 884, 885
 12          ,0 ,  0,   1,   0,   1,   0,   0,   0,   0,   0,   0,   0
 45          ,0 ,  0,   1,   0,   1,   0,   0,   0,   0,   0,   0,   0
@@ -32,5 +35,6 @@ ROW/COLNAME ,12, 45, 176, 210, 271, 471, 542, 544, 562, 789, 884, 885
 789         ,0 ,  0,   0,   0,   1,   0,   0,   0,   0,   0,   0,   0
 884         ,0 ,  0,   0,   0,   1,   0,   0,   0,   0,   0,   0,   0
 885         ,0 ,  0,   0,   0,   1,   0,   0,   0,   0,   0,   0,   0.
+```
 
 The combined database includes pairs and NDDs from the Alliance for Paired Donation (APD) and the University of Michigan (UM) KPD programs. There are 585 pairs and 56 NDDs in the APD data and 281 pairs and 7 NDDs in the University of Michigan KPD program. In both data sources, blood type, anti-HLA antibodies of each candidate and blood type and HLA antigens of each donor are recorded. Those characteristics are used to generate edges in the adjacency matrix.
